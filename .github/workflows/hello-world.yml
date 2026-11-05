@@ -2,6 +2,7 @@ name: "Hello World"
 
 on:
   push:
+    branches: [main]
   workflow_dispatch:
 
 jobs:
@@ -11,3 +12,9 @@ jobs:
     steps:
       - name: Say Hello
         run: echo "Hello World"
+
+      - name: Kernel
+        run: uname -a
+
+      - name: Git
+        run: git --version
