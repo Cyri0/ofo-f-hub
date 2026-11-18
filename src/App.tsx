@@ -1,6 +1,6 @@
 const App = () => {
   return (
-    <div>Ofő Weboldala</div>
+    <div>Ofő Weboldala - Deploy Test 🚀</div>
   )
 }
 
